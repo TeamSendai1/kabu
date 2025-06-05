@@ -1,3 +1,4 @@
+package rensyu;
 public class kensyu02 {
 
 	public static void main(String[] args) {
@@ -36,19 +37,19 @@ public class kensyu02 {
 			zikotosi += tuki * tousigaku;
 			if(i == 0) {
 				soutosi += nengaku;
-				rieki += tousigaku/10;
+				rieki += tousigaku/10*tuki;
 			}else {
-				rieki += ((soutosi + nengaku)*(haitou)) + tousigaku/10;
+				rieki += ((soutosi + nengaku)*(haitou)) + tousigaku/10 * tuki;
 				soutosi = (soutosi + nengaku)*(1+haitou);
 			}
 			
 		}
 		
 		
-		System.out.println("総投資額:" + soutosi + "万円");
-		System.out.println("総自己投資額:" + zikotosi);
-		System.out.println("総利益:" + rieki);
-		if(soutosi != zikotosi + rieki) {
+		System.out.println("総投資額:" + (int)soutosi + "万円");
+		System.out.println("総自己投資額:" + (int)zikotosi + "万円");
+		System.out.println("総利益:" + (int)rieki + "万円");
+		if((int)soutosi != (int)zikotosi + (int)rieki) {
 			System.out.println("error");
 		}
 	}
