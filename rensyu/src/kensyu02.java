@@ -1,6 +1,7 @@
 public class kensyu02 {
 
 	public static void main(String[] args) {
+		
 		double tousigaku = 3;
 		double haitou = 0.02;
 		final int tuki=18;
