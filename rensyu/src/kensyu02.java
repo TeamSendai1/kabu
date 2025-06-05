@@ -81,7 +81,7 @@ public class kensyu02 {
 		//一年を何か月にするか
 		final int tuki=18;
 		//たかだそうしは天才
-		//ふじうちかずは
+		//ふじうちかずはなかじゆか
 		//総投資額
 		double soutosi = 0;
 		
