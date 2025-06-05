@@ -19,7 +19,12 @@ public class kensyu02 {
 		
 		//一年を何か月にするか
 		final int tuki=18;
+<<<<<<< HEAD
 		//さのゆうし
+=======
+		//たかだそうしは天才
+		//ふじうちかずは
+>>>>>>> refs/remotes/origin/master
 		//総投資額
 		double soutosi = 0;
 		
