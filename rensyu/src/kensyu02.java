@@ -17,7 +17,7 @@ public class kensyu02 {
 			rieki += (soutosi*haitou) + tousigaku/10;
 		}
 		
-		//とみーお疲れ
+		//とみーお疲れなり
 		System.out.println("総投資額:" + soutosi + "万円");
 		System.out.println("総自己投資額:" + zikotosi);
 		System.out.println("総利益:" + rieki);
