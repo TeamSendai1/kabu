@@ -19,7 +19,7 @@ public class kensyu02 {
 		
 		//一年を何か月にするか
 		final int tuki=18;
-		
+		//たかだそうしは変態
 		//総投資額
 		double soutosi = 0;
 		
