@@ -1,3 +1,5 @@
+package tumitateNISA;
+
 public class kensyu02 {
 
 	public static void main(String[] args) {
@@ -19,12 +21,7 @@ public class kensyu02 {
 		
 		//一年を何か月にするか
 		final int tuki=18;
-<<<<<<< HEAD
-		//さのゆうし
-=======
-		//たかだそうしは天才
-		//ふじうちかずは
->>>>>>> refs/remotes/origin/master
+		
 		//総投資額
 		double soutosi = 0;
 		
@@ -34,9 +31,13 @@ public class kensyu02 {
 		//自分の出していないお金
 		double rieki = 0;
 		
+		//払う税金
+		double zeikin = 0;
+		
 		//一年の投資額(複利ぬき)
 		double nengaku = tuki * (tousigaku + (tousigaku/10));
 		
+		//利益計算
 		for(int i = 0; i < nen; i++) {
 			zikotosi += tuki * tousigaku;
 			if(i == 0) {
@@ -48,11 +49,14 @@ public class kensyu02 {
 			}
 			
 		}
+		//投資終了時に払う税金
+		zeikin = rieki * 0.2;
 		
 		
 		System.out.println("総投資額:" + soutosi + "万円");
 		System.out.println("総自己投資額:" + zikotosi);
-		System.out.println("総利益:" + rieki);
+		System.out.println("総利益:" + (rieki - zeikin));
+		System.out.println("払う税金:" + zeikin);
 		if(soutosi != zikotosi + rieki) {
 			System.out.println("error");
 		}
