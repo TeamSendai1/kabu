@@ -1,4 +1,4 @@
-public class kensyu02 {
+public class a {
 
 	public static void main(String[] args) {
 		double tousigaku = 3;
